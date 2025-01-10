@@ -1,0 +1,84 @@
+#hero {
+  background-color: #1f2937;
+}
+#header{
+    display:flex;
+    align-items: center;
+    gap:10px;
+    padding: 20px;
+}
+#header_logo {
+  font-family: "Roboto", serif;
+  font-size: 24px;
+  color: #f9faf8;
+  justify-content: left;
+  margin-right: auto;
+}
+.header_link{
+    justify-content: space-between;
+}
+
+#subtext,
+.header_link {
+  font-family: "Roboto", serif;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+#hero_section{
+    display: flex;
+    padding:90px;
+    align-items: center;
+    justify-content: center;
+    gap:100px;
+}
+#hero_text{
+    flex:1;
+    margin-right: auto;
+    display:flex;
+    flex-direction: column;
+
+    border: 10px;
+}
+#sign_button{
+    font-family: "Roboto",serif;
+    font-weight: 700;
+    width: 80px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    text-align: center;
+    padding: 5px;
+    border-radius: 7%;
+    border:0px
+}
+#hero_image{
+    flex:1;
+}
+#main_text {
+  font-family: "Roboto", serif;
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+#information{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#info_text{
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 900;
+    color:#1f2937;
+}
+
+#info_images{
+    display:flex;
+    padding: 9px;
+    justify-content:center;
+    gap:50px;
+}
+.info_image{
+    flex:0;
+    display:flex;
+    flex-direction: column;
+}
